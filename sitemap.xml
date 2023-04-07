@@ -6,7 +6,6 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://alekanedero.github.io/La-Panthere/index.html</loc>
   <lastmod>2023-04-02T20:58:30+00:00</lastmod>
@@ -17,6 +16,5 @@
   <lastmod>2023-04-02T20:58:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 
 </urlset>
