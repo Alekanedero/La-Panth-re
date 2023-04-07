@@ -7,6 +7,21 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+    font-size: 13px;
+    color: black!important;
+}
+/* .text-center {
+    font-size: 13px;
+} */
+.citation {
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+}
+.descritpion {
+    font-size: 13px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -413,7 +428,6 @@ a:hover {
 nav .caret {
     margin: 0 5px;
 }
-
 .dropdown-menu .dropdown-menu {
     top: -8px;
     left: 100%;
@@ -438,7 +452,7 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;   
 }
 
 .mg-lg {
@@ -640,6 +654,9 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
+h2 {
+    font-size: 17px;
+}
 h1,
 h2,
 h3,
@@ -675,10 +692,6 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
-
-p {
-    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -738,6 +751,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 13px;
 }
 
 .portfolio-thumb {
@@ -776,7 +790,9 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
+    text-shadow: 10px 10px 10px black;
+
 }
 
 .btn-atomic-tangerine {
