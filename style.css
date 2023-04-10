@@ -354,8 +354,6 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
-    border-bottom: 2px solid #F3976C;
-
 }
 
 .navbar-toggle {
@@ -382,7 +380,10 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
+.padding {
+    margin-right: 50%;
+    margin-left: 50%;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -803,7 +804,7 @@ h4 {
     text-shadow: 0 2px 3px black;
 }
 .tc-black {
-    color: black;
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
@@ -812,7 +813,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #b46946!important;
     color: #FFFFFF!important;
 }
 
@@ -829,7 +830,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #ac613f!important;
+    color: #b46946!important;
 }
 
 .icon-dark-slate-blue {
