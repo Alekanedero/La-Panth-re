@@ -6,7 +6,13 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.fa {
+    color: black;
+}
+.fa-chevron-up {
+    color: black;
+    z-index: 500;
+}
 p {
     font-size: 13px;
     color: black!important;
