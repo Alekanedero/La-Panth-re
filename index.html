@@ -13,7 +13,7 @@
 <link rel="canonical" href="https://Alekanedero.github.io/La-Panthere/">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style.min.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
 <link rel="stylesheet" type="text/css" href="./css/et-line.css">
@@ -41,7 +41,6 @@
 <!-- Analytics END -->
 
 </head>
-
 <body>
 	
 <!-- Principal conteneur -->
@@ -53,7 +52,7 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">				
-				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="paris web design logo agence web meilleure agence"  width="217" height="40" loading="lazy"></a>
+				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="logo web meilleure agence"  width="217" height="40" loading="lazy"></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -77,7 +76,9 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/logo_mobile.webp" class="center-block image-resize-mode" width="100" height="100" alt="logo la Panthere">
+				<img 
+					srcset="img/logo_desktop.webp 500w, img/logo_mobile.webp 300w"
+					src="img/logo_mobile.webp" class="center-block image-resize-mode" width="100" height="100" alt="logo la Panthere">
 				<h1 class="text-center hero-bloc-text tc-white ">
 					Agence La Panthère
 				</h1>
@@ -171,8 +172,10 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/livre.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
-					<img src="img/livre.webp" class="img-responsive portfolio-thumb" alt="refonte site web journal" width="320" height="320">
+				<a href="#" data-lightbox="img/livre_desktop.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
+					<img 
+						srcset="img/journal_desktop.webp 700w, img/journal_500.webp 500w"
+						src="img/journal_desktop.webp" class="img-responsive portfolio-thumb" alt="refonte site web journal" width="700" height="700">
 				</a>
 				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
@@ -182,8 +185,10 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/photographe.webp" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
-					<img src="img/photographe.webp" class="img-responsive portfolio-thumb" alt="création d'un site web pour photographes" width="320" height="320">
+				<a href="#" data-lightbox="img/photographe_desktop.webp" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
+					<img 
+						srcset="img/photographe_desktop.webp 700w, img/photographe_mobile.webp 300w"
+						src="img/photographe_desktop.webp" class="img-responsive portfolio-thumb" alt="création d'un site web pour photographes" width="700" height="700">
 				</a>
 				<h3 class="mg-md text-center">
 					Création d'un site web pour photographes
@@ -195,8 +200,10 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/materiel.webp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
-					<img src="img/materiel.webp" class="img-responsive portfolio-thumb" alt="création d'un site web pour voyageur" width="320" height="320">
+				<a href="#" data-lightbox="img/materiel_desktop.webp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
+					<img
+						srcset="img/materiel_desktop.webp 700w, img/materiel_mobile.webp 300w"
+						 src="img/materiel.webp" class="img-responsive portfolio-thumb" alt="création d'un site web pour voyageur" width="700" height="700">
 				</a>
 				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
@@ -206,8 +213,10 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/travail.webp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
-					<img src="img/travail.webp" class="img-responsive portfolio-thumb" alt="création d'un site web pour agence de mariage" width="320" height="320">
+				<a href="#" data-lightbox="img/travail_desktop.webp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
+					<img
+						srcset="img/travail_desktop.webp 700w, img/travail_desktop.webp 300w"
+						 src="img/travail_desktop.webp" class="img-responsive portfolio-thumb" alt="création d'un site web pour agence de mariage" width="700" height="700">
 				</a>
 				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
